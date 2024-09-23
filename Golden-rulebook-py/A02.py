@@ -1,4 +1,11 @@
-N = map(int,input().split())
-X = map(int,input().split())
+N,X = map(int,input().split())
 A = list(map(int,input().split()))
 
+for i in range(N):
+    if A[i] == X:
+        result = True
+
+if result == True:
+    print("Yes")
+else:
+    print("No")
