@@ -5,9 +5,9 @@ def search(x,A):
         M = (L+R)//2
         if x < A[M]:
             R = M-1
-        if x == a[M]:
+        if x == A[M]:
             return M
-        if x > a[M]:
+        if x > A[M]:
             L = M+1
 
 N,X = map(int,input().split())
